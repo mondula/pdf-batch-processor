@@ -88,6 +88,7 @@ class VariantExtractionApp:
 
         self._refresh_mfr_menu()
 
+
     def log_message(self, msg: str):
         self.log.insert(tk.END, msg + "\n")
         self.log.see(tk.END)
